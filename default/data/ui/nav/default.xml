@@ -1,0 +1,28 @@
+<nav>
+  <view name="search" default='true' />
+  <collection label="Marker maps">
+      <view name="googlemarkermap"/>
+      <view name="googlemarkermap-custom"/>
+  </collection>
+  <collection label="Cluster maps">
+      <view name="googleclustermap"/>
+      <view name="googleclustermap-custom"/>
+  </collection>
+  <collection label="Shape maps">
+    <view name="googleshapemap"/>
+    <view name="googleshapemap-custom1"/>
+    <view name="googleshapemap-custom2"/>
+    <collection label="Other countries">
+      <view name="googleshapemap-custom-us"/>
+      <view name="googleshapemap-custom-in"/>
+      <view name="googleshapemap-custom-fr"/>
+      <view name="googleshapemap-custom-de"/>
+      <view name="googleshapemap-custom-uk"/>
+    </collection>
+  </collection>
+  <collection label="Heat maps">
+    <view name="googleheatmap-density"/>
+    <view name="googleheatmap-value"/>
+    <view name="googleheatmap-custom"/>
+  </collection>
+</nav>
